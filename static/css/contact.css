@@ -1,0 +1,15 @@
+.contact{
+    display: block;
+    padding: 10px;
+    background-image: url(../img/content.jpg);
+
+}
+.contact a{
+    margin-top: 10px;
+}
+.margin{
+    margin-top: 11px;
+}
+.contact-us{
+    height: 80vh;
+}

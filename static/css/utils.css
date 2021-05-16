@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.maximum-width{
+    max-width: 80vw;
+
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width{
+    max-width: 60vw;
+}
+
+.m{
+    margin: auto;
+}
+:root{
+    --main-bg-color:rgb(10, 10, 236);
+    --font1: 'Lato', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+.btn{
+
+}
+.form-control{
+    
+}
