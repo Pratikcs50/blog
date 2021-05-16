@@ -23,7 +23,13 @@ class blog(db.Model):
 
 
 
-@app.route('/')
+
+@app.route("/index.html",methods=["POST","GET"])
+def indext():
+    return render_template ("index.html")
+
+
+@app.route('/',methods=["POST","GET"])
 def home():
     return render_template ("index.html")
 
@@ -46,9 +52,7 @@ def submit():
 def search():
     return render_template ("search.html")
 
-@app.route("/index.html",methods=["POST","GET"])
-def indext():
-    return render_template ("index.html")
+
 
 @app.route("/about.html")
 def about():
