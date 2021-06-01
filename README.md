@@ -5,6 +5,6 @@ The project is based on :
     2)BACKEND : flask python framework
     3)DATABASE : sqlite3 incorporated with SQLAlchemy model
 
-The project is a multipage website linked dynamically. With a database linked too to get the information of the bloggers and user who want to contribute.
+The project is a multipage Blogging website linked dynamically. With a database linked too to get the information of the bloggers and user who want to contribute.
 Currently the website is under development and at first I have decided to make it as my college project but now I am thinking of developing it as a 
 full fledge blogging site.
